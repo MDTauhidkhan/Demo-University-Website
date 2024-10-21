@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIU UNIVERSITY</title>
+  <link rel="stylesheet" type="text/css" href="DIU.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+  <section class=" sub-headher"> 
+    <nav>
+      <a href="DIU.html"> <img src="diu/logo.png" alt=""></a>
+      <div class="nav-links" id="nav links"> 
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="DIU.html"> Home</a></li>
+          <li> <a href="About.html">About</a></li>
+          <li> <a href="Course.html"> Course</a></li>
+          <li> <a href="Blog.html"> Blog</a></li>
+          <li> <a href="contact.html"> contact</a></li>
+        </ul>
+
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1> Contact Us </h1>
+  </section>
+  <!--------------- Contact Us-------------->
+  <section class="location"> 
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.3951908580475!2d90.3203018!3d23.8756013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ada2664e21%3A0x3c872fd17bc11ddb!2sDaffodil%20International%20University!5e0!3m2!1sen!2sbd!4v1645605546042!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  </section>
+  <section class="contact-us">
+<div class="row">
+  <div class="contact-col">
+    <div>
+      <img src="diu/home pageicon.png" alt="">
+        <span>
+          <h5> Daffodil Smart City 1207</h5>
+          <p>Daffodil International University , Saver , Dhaka </p>
+        </span>
+    </div>
+    <div>
+      <img src="diu/location_on_icon (3).png" alt="">
+        <span>
+          <h5> +88029138234</h5>
+          <p>Saturday To Thursday (9AM–5PM ) <br> <br> Friday, Closed
+          </p>
+        </span>
+    </div>
+    <div>
+      <img src="diu/location_on_icon (2).png" alt="">
+        <span>
+          <h5> tauhidkhan7951@gmail.com</h5>
+          <p>Email us your query </p>
+        </span>
+    </div>
+   
+  </div>
+  <div class="contact-col">
+   
+<form action="from-hendler.php" method="post">
+<input type="text" name="name"placeholder="Enter Your Name" required>
+<input type="email"name="email" placeholder="Enter Email Address" required>
+<input type="text" name="subject"placeholder="Enter Your Subject" required>
+<textarea  rows="8" name="message"placeholder="Message" required></textarea>
+<button type="submit" class="botton red-botton"> Send Message</button>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+  </section>
+
+<!--------- Footer ----->
+<section class="footer">
+<h4>About us</h4>
+<p> Lorem ipsum dolor sit amet, consectetur  adipiscing elit.<br> <br> Pellentesque aliquet turpis  nulla, eleifend faucibus est sollicitudin ut.<br> <br> 
+   Maecenas ut venenatis ex, et dapibus purus  Donec sit.</p>
+   <div class="icons">
+     <img src="diu/facebook_.png" >
+     <img src="diu/twitter_bird_icon.png" >
+     <img src="diu/instagram_icon.png" >
+     <img src="diu/linkedin .png" >
+
+   </div>
+</section>
+
+
+
+
+
+  <!--------JavaScript for Toggle Menu------>
+<script>
+  var navlinks=document.getlementbyid("navlinks");
+  function showmenu(){
+    navlinks.style.right="0";
+  }
+  function hidemenu(){
+    navlinks.style.right="-200px";
+  }
+
+
+</script>
+
+
+
+
+
+
+
+  
+</body>
+</html>
